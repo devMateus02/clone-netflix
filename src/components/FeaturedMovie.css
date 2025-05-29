@@ -1,0 +1,114 @@
+.featured{
+    height: 100vh;
+    position: relative;
+}
+
+.logo img{
+    position: absolute;
+    top: 0;
+    left:2%;
+    width: 200px;
+}
+
+.featured-vertical{
+    width:inherit;
+    height: inherit;
+    background:linear-gradient(to top, #111 5%, transparent 90%) ;
+}
+
+.featured-horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 10%, transparent 80%);
+}
+
+.featured-content{
+    position: absolute;
+    top: 25%;
+    left: 2%;
+}
+
+.featured-content h1 {
+    font-size: 3.5em;
+    width: 50%;
+    font-weight: 500;
+}
+
+.featured-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap:1em;
+    font-weight: 600;
+}
+
+.featured-info p:nth-child(1){
+    color: rgb(80, 250, 80);
+}
+
+.featured-descript {
+ width: 50%;
+ max-height: 120px; 
+ overflow-y: auto; 
+ padding-right: 10px;
+ color:rgb(167, 165, 165);  ;
+}
+
+.featured-descript::-webkit-scrollbar {
+  width: 8px;
+}
+
+.featured-descript::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.featured-descript::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4); 
+  border-radius: 10px;
+}
+
+.featured-btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.featured-btn button{
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    transition: transform .2s ease-in-out;
+
+}
+
+.featured-btn button:hover{
+    transform: scale(1.05);
+}
+
+
+.featured-btn p{
+    width: 7em;
+    font-size: 1.2em;
+    font-weight: 550;
+    padding: 0 1em;
+    
+}
+
+.featured-btn button:nth-child(2){
+    background-color: #2e2d2d;
+    color: white;
+}
+
+.generos{
+       color: rgb(167, 165, 165);
+}
+
+.generos span {
+    font-weight: 600;
+}
+
+
+
